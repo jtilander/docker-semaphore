@@ -1,6 +1,6 @@
 # Docker image for Semaphore, an Ansible UI
 
-This is a small docker image that provides a web dashboard for Ansible. 
+This is a small docker image that provides a web dashboard for Ansible, via [Semaphore](https://github.com/ansible-semaphore/semaphore)
 
 ## Usage
 
