@@ -4,7 +4,7 @@ This is a small docker image that provides a web dashboard for Ansible.
 
 ## Usage
 
-The easiest way one can see how to launch semaphore is to inspect the [docker-compose.yml]() file provided here. Please note that the persistence is commented out, and in production you should comment in and modify the volume clauses. 
+The easiest way one can see how to launch semaphore is to inspect the [docker-compose.yml](https://github.com/jtilander/docker-semaphore/blob/master/docker-compose.yml) file provided here. Please note that the persistence is commented out, and in production you should comment in and modify the volume clauses. 
 
 ### Environment variables
 
