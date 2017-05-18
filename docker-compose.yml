@@ -1,0 +1,24 @@
+version: '2'
+
+services:
+  mysql:
+    image: mysql
+    environment:
+      - MYSQL_DATABASE=semaphore
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+      - MYSQL_ROOT_PASSWORD=password
+    expose:
+      - 3306
+    # volumes:
+    #   - /mnt/datavolumes/semaphore/db:/var/lib/mysql
+
+  semaphore:
+    build: .
+    image: jtilander/semaphore
+    links:
+      - mysql:mysql
+    ports:
+      - 8080:3000
+    # volumes:
+    #   - /mnt/datavolumes/semaphore/web:/data
+    #command: wait
