@@ -25,3 +25,12 @@ This docker image stores all the persistent stuff inside of /data. This is what 
 By default the Semaphore dashboard runs on port 3000. Please map this to whatever external port you need.
 
 
+
+## Sample views
+
+Here are some images to give an idea of what the UI looks like.
+
+![Dashboard](https://github.com/jtilander/docker-semaphore/raw/master/docs/semaphore_dashboard.png "Dashboard of Semaphore")
+
+![Log](https://github.com/jtilander/docker-semaphore/raw/master/docs/semaphore_log.png "Log output from run of Semaphore")
+
